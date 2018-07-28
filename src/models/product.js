@@ -15,8 +15,7 @@ class Product extends mongoose.Schema {
               type: String,
               required: [true, 'mensagem de retorno de erro'],
               trim: true,
-              index: true,
-              unique: true
+              index: true
           },
           description: {
               type: String,
