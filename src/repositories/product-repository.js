@@ -20,7 +20,7 @@ exports.getBySlug = async(slug) => {
 
 exports.getById = async(id) => {
     const res = await Product
-        .findById(id);
+        .findById(id);         
     return res;
 }
 
